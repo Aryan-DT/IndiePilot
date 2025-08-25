@@ -1,0 +1,102 @@
+[
+  {
+    "id": "post_study_1",
+    "user_id": "demo_user_1",
+    "kind": "study",
+    "title": "Math Study Group",
+    "detail": "Looking for study partners for Algebra 2. Meet at library 3-5pm weekdays. Can help with homework and test prep.",
+    "share_code": "STDY-A9F4",
+    "created_at": "2024-01-15T14:30:00",
+    "status": "available"
+  },
+  {
+    "id": "post_carpool_1",
+    "user_id": "demo_user_2",
+    "kind": "carpool",
+    "title": "School Carpool",
+    "detail": "Need ride to school from downtown area. Can contribute to gas. Available weekdays 7:30am pickup.",
+    "share_code": "CARP-B7E2",
+    "created_at": "2024-01-14T16:45:00",
+    "status": "available"
+  },
+  {
+    "id": "post_swap_1",
+    "user_id": "demo_user_3",
+    "kind": "swap",
+    "title": "Guitar Lessons for Math Help",
+    "detail": "I can teach guitar basics in exchange for math tutoring. Intermediate guitar player, need help with Geometry.",
+    "share_code": "SWAP-C3D8",
+    "created_at": "2024-01-13T12:20:00",
+    "status": "available"
+  },
+  {
+    "id": "post_study_2",
+    "user_id": "demo_user_4",
+    "kind": "study",
+    "title": "Science Project Partner",
+    "detail": "Working on chemistry project about household acids and bases. Need partner for experiments and presentation.",
+    "share_code": "STDY-D5G7",
+    "created_at": "2024-01-12T10:15:00",
+    "status": "claimed"
+  },
+  {
+    "id": "post_carpool_2",
+    "user_id": "demo_user_5",
+    "kind": "carpool",
+    "title": "Weekend Shopping Trip",
+    "detail": "Going to mall Saturday 2pm. Can drive 3 people. Split gas and parking. Back by 6pm.",
+    "share_code": "CARP-E8H1",
+    "created_at": "2024-01-11T18:30:00",
+    "status": "available"
+  },
+  {
+    "id": "post_swap_2",
+    "user_id": "demo_user_6",
+    "kind": "swap",
+    "title": "Spanish Conversation Practice",
+    "detail": "Native Spanish speaker. Want to practice English. Can help with Spanish homework and conversation.",
+    "share_code": "SWAP-F2I9",
+    "created_at": "2024-01-10T15:45:00",
+    "status": "available"
+  },
+  {
+    "id": "post_study_3",
+    "user_id": "demo_user_7",
+    "kind": "study",
+    "title": "History Essay Help",
+    "detail": "Writing essay on Civil War. Need help with research and thesis statement. Can meet at coffee shop.",
+    "share_code": "STDY-G6J4",
+    "created_at": "2024-01-09T13:20:00",
+    "status": "available"
+  },
+  {
+    "id": "post_carpool_3",
+    "user_id": "demo_user_8",
+    "kind": "carpool",
+    "title": "Sports Practice Ride",
+    "detail": "Need ride to soccer practice Tues/Thurs 4pm. Practice ends 6pm. Can pay for gas.",
+    "share_code": "CARP-H9K2",
+    "created_at": "2024-01-08T11:10:00",
+    "status": "claimed"
+  },
+  {
+    "id": "post_swap_3",
+    "user_id": "demo_user_9",
+    "kind": "swap",
+    "title": "Art Skills Exchange",
+    "detail": "Good at drawing portraits. Want to learn digital art. Can teach traditional drawing techniques.",
+    "share_code": "SWAP-I3L7",
+    "created_at": "2024-01-07T09:30:00",
+    "status": "available"
+  },
+  {
+    "id": "post_study_4",
+    "user_id": "demo_user_10",
+    "kind": "study",
+    "title": "Computer Science Study Group",
+    "detail": "Learning Python programming. Forming study group for coding projects and homework help.",
+    "share_code": "STDY-J7M5",
+    "created_at": "2024-01-06T14:00:00",
+    "status": "available"
+  }
+] 

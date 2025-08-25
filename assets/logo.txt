@@ -1,0 +1,10 @@
+IndiePilot Logo Placeholder
+
+This would contain a simple PNG logo for the application.
+For the demo, this is a placeholder file.
+
+The actual logo would be a simple, modern design featuring:
+- Rocket emoji or independence-themed icon
+- Clean typography
+- Teen-friendly colors
+- Professional appearance 

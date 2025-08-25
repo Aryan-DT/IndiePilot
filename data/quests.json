@@ -1,0 +1,167 @@
+[
+  {
+    "id": "quest_laundry",
+    "title": "Do Your Own Laundry",
+    "description": "Learn to sort, wash, dry, and fold your clothes independently",
+    "difficulty": 1,
+    "xp": 50,
+    "est_minutes": 45,
+    "materials": "Dirty clothes, laundry detergent, washing machine",
+    "category": "household",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_meal_prep",
+    "title": "Cook a $10 Meal",
+    "description": "Plan and cook a nutritious meal within a $10 budget",
+    "difficulty": 2,
+    "xp": 75,
+    "est_minutes": 60,
+    "materials": "Ingredients, cooking utensils, recipe",
+    "category": "cooking",
+    "prerequisites": ["quest_meal_planning"]
+  },
+  {
+    "id": "quest_library_booking",
+    "title": "Book a Study Room",
+    "description": "Navigate the library website and reserve a study space",
+    "difficulty": 1,
+    "xp": 30,
+    "est_minutes": 15,
+    "materials": "Computer/phone, library card",
+    "category": "planning",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_appointment_reschedule",
+    "title": "Reschedule an Appointment",
+    "description": "Call and reschedule a medical or academic appointment",
+    "difficulty": 2,
+    "xp": 60,
+    "est_minutes": 20,
+    "materials": "Phone, appointment details",
+    "category": "communication",
+    "prerequisites": ["quest_time_management"]
+  },
+  {
+    "id": "quest_solo_transit",
+    "title": "First Solo Transit Ride",
+    "description": "Plan and take a public transit trip independently (simulated)",
+    "difficulty": 3,
+    "xp": 100,
+    "est_minutes": 90,
+    "materials": "Transit card, route planning app",
+    "category": "transportation",
+    "prerequisites": ["quest_time_management"]
+  },
+  {
+    "id": "quest_grocery_budget",
+    "title": "Grocery Shopping on Budget",
+    "description": "Create a shopping list and stick to a budget at the grocery store",
+    "difficulty": 2,
+    "xp": 70,
+    "est_minutes": 45,
+    "materials": "Shopping list, budget, grocery store",
+    "category": "shopping",
+    "prerequisites": ["quest_meal_planning"]
+  },
+  {
+    "id": "quest_time_management",
+    "title": "Create a Weekly Schedule",
+    "description": "Plan your week with time blocks for study, activities, and rest",
+    "difficulty": 1,
+    "xp": 40,
+    "est_minutes": 30,
+    "materials": "Calendar, planner, or digital tool",
+    "category": "planning",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_emergency_contact",
+    "title": "Set Up Emergency Contacts",
+    "description": "Program important phone numbers and emergency contacts in your phone",
+    "difficulty": 1,
+    "xp": 25,
+    "est_minutes": 15,
+    "materials": "Phone, contact information",
+    "category": "safety",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_basic_first_aid",
+    "title": "Learn Basic First Aid",
+    "description": "Complete a basic first aid course or learn essential skills",
+    "difficulty": 2,
+    "xp": 80,
+    "est_minutes": 120,
+    "materials": "First aid kit, online course or instructor",
+    "category": "safety",
+    "prerequisites": ["quest_emergency_contact"]
+  },
+  {
+    "id": "quest_public_speaking",
+    "title": "Present to a Small Group",
+    "description": "Prepare and deliver a short presentation to classmates or family",
+    "difficulty": 3,
+    "xp": 90,
+    "est_minutes": 60,
+    "materials": "Presentation materials, audience",
+    "category": "communication",
+    "prerequisites": ["quest_appointment_reschedule"]
+  },
+  {
+    "id": "quest_job_interview",
+    "title": "Practice Job Interview",
+    "description": "Conduct a mock job interview with a family member or mentor",
+    "difficulty": 3,
+    "xp": 85,
+    "est_minutes": 45,
+    "materials": "Resume, interview questions, practice partner",
+    "category": "career",
+    "prerequisites": ["quest_public_speaking", "quest_financial_planning"]
+  },
+  {
+    "id": "quest_community_service",
+    "title": "Volunteer in Community",
+    "description": "Find and participate in a local community service opportunity",
+    "difficulty": 2,
+    "xp": 75,
+    "est_minutes": 180,
+    "materials": "Transportation, appropriate clothing",
+    "category": "social",
+    "prerequisites": ["quest_time_management", "quest_budget_tracking"]
+  },
+  {
+    "id": "quest_meal_planning",
+    "title": "Plan a Week of Meals",
+    "description": "Create a meal plan and shopping list for a week",
+    "difficulty": 1,
+    "xp": 35,
+    "est_minutes": 30,
+    "materials": "Recipe books, paper/computer",
+    "category": "cooking",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_budget_tracking",
+    "title": "Track Expenses for a Week",
+    "description": "Log all income and expenses for seven days",
+    "difficulty": 1,
+    "xp": 45,
+    "est_minutes": 10,
+    "materials": "Notebook or app, receipts",
+    "category": "finance",
+    "prerequisites": []
+  },
+  {
+    "id": "quest_financial_planning",
+    "title": "Set Financial Goals",
+    "description": "Create short-term and long-term financial goals with action plans",
+    "difficulty": 2,
+    "xp": 65,
+    "est_minutes": 45,
+    "materials": "Paper/computer, calculator",
+    "category": "finance",
+    "prerequisites": ["quest_budget_tracking", "quest_time_management"]
+  }
+] 

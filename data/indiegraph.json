@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "id": "basic_laundry",
+      "title": "Basic Laundry",
+      "description": "Sort, wash, dry, and fold clothes",
+      "difficulty": 1,
+      "category": "household",
+      "prerequisites": []
+    },
+    {
+      "id": "meal_planning",
+      "title": "Meal Planning",
+      "description": "Plan meals and create shopping lists",
+      "difficulty": 2,
+      "category": "cooking",
+      "prerequisites": []
+    },
+    {
+      "id": "grocery_shopping",
+      "title": "Grocery Shopping",
+      "description": "Navigate stores and stick to budget",
+      "difficulty": 2,
+      "category": "shopping",
+      "prerequisites": ["meal_planning"]
+    },
+    {
+      "id": "budget_tracking",
+      "title": "Budget Tracking",
+      "description": "Track income and expenses",
+      "difficulty": 2,
+      "category": "finance",
+      "prerequisites": []
+    },
+    {
+      "id": "time_management",
+      "title": "Time Management",
+      "description": "Plan and prioritize daily activities",
+      "difficulty": 2,
+      "category": "planning",
+      "prerequisites": []
+    },
+    {
+      "id": "public_transport",
+      "title": "Public Transportation",
+      "description": "Navigate buses, trains, and schedules",
+      "difficulty": 2,
+      "category": "transportation",
+      "prerequisites": ["time_management"]
+    },
+    {
+      "id": "appointment_booking",
+      "title": "Appointment Booking",
+      "description": "Schedule and manage appointments",
+      "difficulty": 1,
+      "category": "communication",
+      "prerequisites": ["time_management"]
+    },
+    {
+      "id": "emergency_preparedness",
+      "title": "Emergency Preparedness",
+      "description": "Handle emergency situations safely",
+      "difficulty": 3,
+      "category": "safety",
+      "prerequisites": ["basic_laundry", "budget_tracking"]
+    },
+    {
+      "id": "cooking_basics",
+      "title": "Cooking Basics",
+      "description": "Prepare simple meals safely",
+      "difficulty": 2,
+      "category": "cooking",
+      "prerequisites": ["grocery_shopping"]
+    },
+    {
+      "id": "financial_planning",
+      "title": "Financial Planning",
+      "description": "Set financial goals and save money",
+      "difficulty": 3,
+      "category": "finance",
+      "prerequisites": ["budget_tracking", "time_management"]
+    },
+    {
+      "id": "conflict_resolution",
+      "title": "Conflict Resolution",
+      "description": "Handle disagreements constructively",
+      "difficulty": 3,
+      "category": "social",
+      "prerequisites": ["appointment_booking"]
+    },
+    {
+      "id": "job_interview",
+      "title": "Job Interview Skills",
+      "description": "Prepare for and conduct interviews",
+      "difficulty": 3,
+      "category": "career",
+      "prerequisites": ["conflict_resolution", "financial_planning"]
+    },
+    {
+      "id": "community_service",
+      "title": "Community Service",
+      "description": "Volunteer and give back to community",
+      "difficulty": 2,
+      "category": "social",
+      "prerequisites": ["time_management", "budget_tracking"]
+    },
+    {
+      "id": "public_speaking",
+      "title": "Public Speaking",
+      "description": "Present confidently to groups",
+      "difficulty": 3,
+      "category": "communication",
+      "prerequisites": ["conflict_resolution"]
+    },
+    {
+      "id": "first_aid",
+      "title": "Basic First Aid",
+      "description": "Provide basic medical assistance",
+      "difficulty": 2,
+      "category": "safety",
+      "prerequisites": ["emergency_preparedness"]
+    }
+  ],
+  "edges": [
+    {"from": "meal_planning", "to": "grocery_shopping"},
+    {"from": "time_management", "to": "public_transport"},
+    {"from": "time_management", "to": "appointment_booking"},
+    {"from": "basic_laundry", "to": "emergency_preparedness"},
+    {"from": "budget_tracking", "to": "emergency_preparedness"},
+    {"from": "grocery_shopping", "to": "cooking_basics"},
+    {"from": "budget_tracking", "to": "financial_planning"},
+    {"from": "time_management", "to": "financial_planning"},
+    {"from": "appointment_booking", "to": "conflict_resolution"},
+    {"from": "conflict_resolution", "to": "job_interview"},
+    {"from": "financial_planning", "to": "job_interview"},
+    {"from": "time_management", "to": "community_service"},
+    {"from": "budget_tracking", "to": "community_service"},
+    {"from": "conflict_resolution", "to": "public_speaking"},
+    {"from": "emergency_preparedness", "to": "first_aid"}
+  ],
+  "metadata": {
+    "version": "1.0",
+    "description": "IndieGraph skill dependency graph for teen independence",
+    "total_skills": 15,
+    "total_dependencies": 15,
+    "categories": ["household", "cooking", "shopping", "finance", "planning", "transportation", "communication", "safety", "social", "career"],
+    "difficulty_distribution": {
+      "beginner": 3,
+      "intermediate": 8,
+      "advanced": 4
+    }
+  }
+} 

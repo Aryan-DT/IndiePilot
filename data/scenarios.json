@@ -1,0 +1,327 @@
+[
+  {
+    "id": "scenario_budget_shopping",
+    "title": "Budget Shopping Challenge",
+    "description": "You have $50 to buy groceries for the week. How do you approach this?",
+    "est_time": 5,
+    "scoring_weights": {
+      "frugality": 0.25,
+      "safety": 0.30,
+      "time": 0.20,
+      "initiative": 0.25
+    },
+    "steps": [
+      {
+        "question": "You arrive at the grocery store with $50. What's your first step?",
+        "choices": [
+          {
+            "text": "Grab a cart and start shopping",
+            "scores": {"frugality": 20, "safety": 80, "time": 60, "initiative": 40}
+          },
+          {
+            "text": "Make a list and check prices first",
+            "scores": {"frugality": 90, "safety": 90, "time": 80, "initiative": 70}
+          },
+          {
+            "text": "Buy whatever looks good",
+            "scores": {"frugality": 30, "safety": 70, "time": 40, "initiative": 30}
+          }
+        ]
+      },
+      {
+        "question": "You find some items are more expensive than expected. What do you do?",
+        "choices": [
+          {
+            "text": "Buy them anyway and hope for the best",
+            "scores": {"frugality": 20, "safety": 60, "time": 50, "initiative": 40}
+          },
+          {
+            "text": "Look for cheaper alternatives or sales",
+            "scores": {"frugality": 95, "safety": 85, "time": 70, "initiative": 80}
+          },
+          {
+            "text": "Skip those items entirely",
+            "scores": {"frugality": 80, "safety": 90, "time": 60, "initiative": 60}
+          }
+        ]
+      },
+      {
+        "question": "You're at the checkout and realize you're over budget. What's your approach?",
+        "choices": [
+          {
+            "text": "Put back the most expensive items",
+            "scores": {"frugality": 90, "safety": 95, "time": 80, "initiative": 85}
+          },
+          {
+            "text": "Ask to borrow money from a friend",
+            "scores": {"frugality": 40, "safety": 70, "time": 60, "initiative": 50}
+          },
+          {
+            "text": "Use a credit card (even though you don't have one)",
+            "scores": {"frugality": 10, "safety": 30, "time": 40, "initiative": 20}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scenario_transportation",
+    "title": "First Solo Transportation",
+    "description": "You need to get to a new location across town. How do you plan your journey?",
+    "est_time": 4,
+    "scoring_weights": {
+      "frugality": 0.20,
+      "safety": 0.35,
+      "time": 0.25,
+      "initiative": 0.20
+    },
+    "steps": [
+      {
+        "question": "How do you start planning your route?",
+        "choices": [
+          {
+            "text": "Ask a friend to drive you",
+            "scores": {"frugality": 60, "safety": 85, "time": 70, "initiative": 40}
+          },
+          {
+            "text": "Research public transit options online",
+            "scores": {"frugality": 90, "safety": 80, "time": 85, "initiative": 85}
+          },
+          {
+            "text": "Just start walking and figure it out",
+            "scores": {"frugality": 95, "safety": 40, "time": 30, "initiative": 60}
+          }
+        ]
+      },
+      {
+        "question": "You discover the bus route has changed. What's your next move?",
+        "choices": [
+          {
+            "text": "Call a rideshare service",
+            "scores": {"frugality": 30, "safety": 90, "time": 80, "initiative": 70}
+          },
+          {
+            "text": "Check for alternative routes or ask for help",
+            "scores": {"frugality": 85, "safety": 85, "time": 70, "initiative": 90}
+          },
+          {
+            "text": "Give up and go home",
+            "scores": {"frugality": 80, "safety": 95, "time": 50, "initiative": 20}
+          }
+        ]
+      },
+      {
+        "question": "You arrive at your destination 15 minutes early. What do you do?",
+        "choices": [
+          {
+            "text": "Find a nearby cafe to wait",
+            "scores": {"frugality": 40, "safety": 90, "time": 85, "initiative": 70}
+          },
+          {
+            "text": "Walk around and explore the area",
+            "scores": {"frugality": 90, "safety": 70, "time": 80, "initiative": 85}
+          },
+          {
+            "text": "Stand outside and wait",
+            "scores": {"frugality": 95, "safety": 80, "time": 60, "initiative": 50}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scenario_emergency",
+    "title": "Emergency Situation",
+    "description": "You're home alone and encounter an unexpected situation. How do you respond?",
+    "est_time": 3,
+    "scoring_weights": {
+      "frugality": 0.10,
+      "safety": 0.60,
+      "time": 0.15,
+      "initiative": 0.15
+    },
+    "steps": [
+      {
+        "question": "You hear a strange noise in the house. What's your first reaction?",
+        "choices": [
+          {
+            "text": "Investigate the noise immediately",
+            "scores": {"frugality": 80, "safety": 30, "time": 60, "initiative": 70}
+          },
+          {
+            "text": "Call a parent or trusted adult",
+            "scores": {"frugality": 90, "safety": 95, "time": 80, "initiative": 80}
+          },
+          {
+            "text": "Ignore it and continue what you're doing",
+            "scores": {"frugality": 70, "safety": 40, "time": 90, "initiative": 30}
+          }
+        ]
+      },
+      {
+        "question": "You discover a small kitchen fire. What do you do?",
+        "choices": [
+          {
+            "text": "Try to put it out yourself",
+            "scores": {"frugality": 80, "safety": 20, "time": 50, "initiative": 60}
+          },
+          {
+            "text": "Call 911 immediately",
+            "scores": {"frugality": 90, "safety": 95, "time": 70, "initiative": 90}
+          },
+          {
+            "text": "Run outside and call for help",
+            "scores": {"frugality": 90, "safety": 90, "time": 60, "initiative": 80}
+          }
+        ]
+      },
+      {
+        "question": "The emergency is resolved. What's your next step?",
+        "choices": [
+          {
+            "text": "Document what happened for future reference",
+            "scores": {"frugality": 90, "safety": 95, "time": 80, "initiative": 90}
+          },
+          {
+            "text": "Forget about it and move on",
+            "scores": {"frugality": 70, "safety": 60, "time": 90, "initiative": 40}
+          },
+          {
+            "text": "Tell everyone you know about it",
+            "scores": {"frugality": 80, "safety": 70, "time": 60, "initiative": 60}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scenario_social_conflict",
+    "title": "Social Conflict Resolution",
+    "description": "You're in a group situation where there's disagreement. How do you handle it?",
+    "est_time": 4,
+    "scoring_weights": {
+      "frugality": 0.15,
+      "safety": 0.25,
+      "time": 0.20,
+      "initiative": 0.40
+    },
+    "steps": [
+      {
+        "question": "Two friends are arguing about where to eat. What do you do?",
+        "choices": [
+          {
+            "text": "Stay quiet and let them figure it out",
+            "scores": {"frugality": 80, "safety": 90, "time": 40, "initiative": 30}
+          },
+          {
+            "text": "Suggest a compromise or alternative",
+            "scores": {"frugality": 85, "safety": 95, "time": 70, "initiative": 90}
+          },
+          {
+            "text": "Pick a side and join the argument",
+            "scores": {"frugality": 70, "safety": 40, "time": 30, "initiative": 50}
+          }
+        ]
+      },
+      {
+        "question": "The argument escalates. How do you respond?",
+        "choices": [
+          {
+            "text": "Try to mediate and calm everyone down",
+            "scores": {"frugality": 90, "safety": 85, "time": 60, "initiative": 85}
+          },
+          {
+            "text": "Leave the situation entirely",
+            "scores": {"frugality": 85, "safety": 95, "time": 80, "initiative": 60}
+          },
+          {
+            "text": "Get involved and take sides",
+            "scores": {"frugality": 60, "safety": 30, "time": 40, "initiative": 40}
+          }
+        ]
+      },
+      {
+        "question": "The conflict is resolved. What's your approach going forward?",
+        "choices": [
+          {
+            "text": "Suggest establishing ground rules for future decisions",
+            "scores": {"frugality": 90, "safety": 95, "time": 80, "initiative": 90}
+          },
+          {
+            "text": "Avoid similar situations in the future",
+            "scores": {"frugality": 80, "safety": 85, "time": 70, "initiative": 50}
+          },
+          {
+            "text": "Act like nothing happened",
+            "scores": {"frugality": 70, "safety": 60, "time": 90, "initiative": 40}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scenario_time_management",
+    "title": "Time Management Challenge",
+    "description": "You have multiple commitments and deadlines approaching. How do you prioritize?",
+    "est_time": 4,
+    "scoring_weights": {
+      "frugality": 0.20,
+      "safety": 0.20,
+      "time": 0.40,
+      "initiative": 0.20
+    },
+    "steps": [
+      {
+        "question": "You have homework, a part-time job, and a social event all due today. What's your first step?",
+        "choices": [
+          {
+            "text": "Start with whatever feels easiest",
+            "scores": {"frugality": 60, "safety": 70, "time": 40, "initiative": 50}
+          },
+          {
+            "text": "Make a priority list and timeline",
+            "scores": {"frugality": 90, "safety": 95, "time": 90, "initiative": 85}
+          },
+          {
+            "text": "Try to do everything at once",
+            "scores": {"frugality": 40, "safety": 30, "time": 20, "initiative": 60}
+          }
+        ]
+      },
+      {
+        "question": "You realize you can't complete everything on time. What do you do?",
+        "choices": [
+          {
+            "text": "Communicate with relevant people and ask for extensions",
+            "scores": {"frugality": 90, "safety": 95, "time": 80, "initiative": 90}
+          },
+          {
+            "text": "Work through the night to finish everything",
+            "scores": {"frugality": 70, "safety": 40, "time": 60, "initiative": 70}
+          },
+          {
+            "text": "Give up on some commitments",
+            "scores": {"frugality": 60, "safety": 70, "time": 80, "initiative": 40}
+          }
+        ]
+      },
+      {
+        "question": "You successfully manage your time. What's your reflection?",
+        "choices": [
+          {
+            "text": "Analyze what worked and plan better for next time",
+            "scores": {"frugality": 95, "safety": 95, "time": 90, "initiative": 95}
+          },
+          {
+            "text": "Feel relieved it's over",
+            "scores": {"frugality": 70, "safety": 80, "time": 60, "initiative": 50}
+          },
+          {
+            "text": "Take on even more commitments",
+            "scores": {"frugality": 40, "safety": 30, "time": 20, "initiative": 60}
+          }
+        ]
+      }
+    ]
+  }
+] 
